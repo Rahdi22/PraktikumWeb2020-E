@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	font-style: red;
+
+}
+
+h1{
+	text-align: center;
+	font-weight: 700;
+}
+
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	position: center;
+	top: 50%
+	left:50%;
+	width: 350px;
+	margin:80px auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.tombol_login{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.nama{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	width: 190px;
+}
+
+.Username{
+	margin-left: 10px;
+	width: 100px;
+}
+
+.Password{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 100px;
+}
+.kelamin{
+	margin-top: 10px;
+	display: flex;
+}
+
+.negara{
+	margin-top: 10px;
+}
+
+.komentar{
+	margin-top: 10px;
+}
+
+.login{
+	margin-top: 10px;
+}
