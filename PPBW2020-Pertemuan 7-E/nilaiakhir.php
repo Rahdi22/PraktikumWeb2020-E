@@ -19,27 +19,27 @@ $nilai_akhir = ($nilai_absen + $nilai_tugas +$nilai_uts + $nilai_uas)/4;
 if ($nilai_akhir>=80)
 
  {
-	$grade = "A";
+	$grade = "Anda dinyatakan lulus dengan predikat A";
 }
 
 elseif ($nilai_akhir>=70)
  {
-	$grade = "B";
+	$grade = "Anda dinyatakan lulus dengan predikat B";
 }
 
 elseif ($nilai_akhir>=50)
  {
-	$grade = "C";
+	$grade = "Anda dinyatakan lulus dengan predikat C";
 }
 
 elseif ($nilai_akhir>=40)
  {
-	$grade = "D";
+	$grade = "Anda dinyatakan gagal karena predikat D";
 }
 
 else
 {
-	$grade ="E";
+	$grade ="Anda dinyatakan gagal";
 }
 
 
