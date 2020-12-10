@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to right, #111bcc, #119887, #423775);
+    font: 400 14px;
+    padding: 20px;
+}
+
+.box{
+    margin-left: 30%;
+}
+
+a{
+    background-color:rgb(9, 92, 13);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+form{
+    margin-left: 37%;
+}
+
+td{
+    padding-left: 30px;
+    color: white;
+}
+
+input[type="number"], input[type="text"]{
+    height: 20px;
+    background-color: rgb(49, 49, 47);
+    color: white;
+}
+
+h2, h3{
+    text-align: center;
+    color: white;
+}
+
+input[type="submit"]{
+    background-color: rgb(9, 92, 13);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}

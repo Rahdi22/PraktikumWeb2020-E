@@ -1,0 +1,61 @@
+body {
+  background-image: linear-gradient(to right, #111bcc, #119887, #123815);
+    font: 400 14px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center; 
+    color: white; 
+}
+
+.box{
+    margin-left: 24%;
+}
+
+a{
+    background-color: rgb(9, 92, 13);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;  
+    color: white;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background-color: rgb(49, 49, 47);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ td,th {
+    padding-left: 8px;
+  }
+
+  thead tr {
+    height: 60px;
+    background: #dfddd3;
+    font-size: 16px;
+  }
+
+  tbody tr {
+    height: 48px;
+    border-bottom: 1px solid black;
+    color: white;
+  }
+
+  td, th {
+    text-align: center;
+  }
